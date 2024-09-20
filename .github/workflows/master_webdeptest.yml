@@ -3,7 +3,7 @@
 
 env:
 
- DOTNET_ROOT: \Web_dep_test\Web_dep_test.csproj
+ DOTNET_ROOT: "\Web_dep_test\Web_dep_test.csproj"
 
 
 
@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{env.DOTNET_ROOT}}
 
   deploy:
     runs-on: windows-latest
