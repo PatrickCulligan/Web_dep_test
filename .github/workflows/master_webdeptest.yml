@@ -3,7 +3,7 @@
 
 env:
 
- DOTNET_ROOT: C:\Program Files\dotnet
+ DOTNET_ROOT: "C:\Users\I335499\source\repos\Web_dep_test\Web_dep_test.csproj"
 
 
 
