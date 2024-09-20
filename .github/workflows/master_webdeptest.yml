@@ -3,7 +3,7 @@
 
 env:
 
- DOTNET_ROOT: "C:\Users\I335499\source\repos\Web_dep_test\Web_dep_test.csproj"
+ DOTNET_ROOT: \Web_dep_test\Web_dep_test.csproj
 
 
 
@@ -31,7 +31,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
