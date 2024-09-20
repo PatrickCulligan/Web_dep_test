@@ -3,7 +3,7 @@
 
 env:
 
- DOTNET_ROOT: "\Web_dep_test\Web_dep_test.csproj"
+ DOTNET_ROOT: "Web_dep_test\wwwroot\"
 
 
 
