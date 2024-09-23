@@ -3,7 +3,7 @@
 
 env:
 
- DOTNET_ROOT: C:\Program Files\dotnet
+ DOTNET_ROOT: "Web_dep_test\wwwroot\"
 
 
 
